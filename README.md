@@ -14,9 +14,9 @@ Year / Ano:
 License / Licença:
 MIT License (Public use allowed with authorship preserved)
 
-=====================================================================
+
 TABLE OF CONTENTS / SUMÁRIO
-=====================================================================
+
 
 1. Introduction / Introdução
 2. Design Motivation / Motivação do Projeto
@@ -34,9 +34,9 @@ TABLE OF CONTENTS / SUMÁRIO
 14. Final Statement / Declaração Final
 15. License Text / Texto da Licença
 
-=====================================================================
+
 1. INTRODUCTION / INTRODUÇÃO
-=====================================================================
+
 
 Infinity Architecture is a theoretical system architecture model that
 redefines the foundations of computation by introducing dimensional
@@ -54,9 +54,9 @@ Este modelo não pretende substituir ISAs existentes diretamente, mas
 atuar como uma camada conceitual capaz de gerar futuras arquiteturas,
 runtimes, compiladores e modelos de hardware.
 
-=====================================================================
+
 2. DESIGN MOTIVATION / MOTIVAÇÃO DO PROJETO
-=====================================================================
+
 
 Modern architectures face structural limitations such as:
 
@@ -76,9 +76,8 @@ Infinity Architecture addresses these problems by restructuring flow,
 memory, and execution topology instead of increasing brute-force
 resources.
 
-=====================================================================
 3. ARCHITECTURAL OVERVIEW / VISÃO GERAL DA ARQUITETURA
-=====================================================================
+
 
 The architecture is based on three inseparable conceptual pillars:
 
@@ -105,9 +104,9 @@ Diagram:
         | (Process Memory)    |
         +----------------------+
 
-=====================================================================
+
 4. INFINITY FLOAT CONCEPT / CONCEITO INFINITY FLOAT
-=====================================================================
+
 
 Infinity Float is NOT a numeric floating-point value.
 
@@ -135,9 +134,8 @@ d5+ -> Time, priority, expansion
 Infinity Float is NOT processed by the ALU.
 Infinity Float is only loaded, propagated, compared, and incremented.
 
-=====================================================================
 5. DIMENSIONAL ADDRESSING / ENDEREÇAMENTO DIMENSIONAL
-=====================================================================
+
 
 In Infinity Architecture, the address is not only a memory location.
 
@@ -150,9 +148,9 @@ O endereço é a própria linha de execução combinada com suas dimensões.
 Flow displacement occurs through dimensional changes, not only by
 instruction pointer jumps.
 
-=====================================================================
+
 6. DIMENSIONAL EXECUTION MATRIX
-=====================================================================
+
 
 Execution occurs within a conceptual infinite-dimensional matrix.
 
@@ -173,9 +171,9 @@ ASCII representation:
 Linear execution occurs inside a block.
 Parallel execution occurs between dimensions.
 
-=====================================================================
+
 7. INFINITY CACHE / MEMÓRIA PROCESSUAL
-=====================================================================
+
 
 Infinity Cache is not a reactive data cache.
 
@@ -205,9 +203,8 @@ Immediate Return (no semantic wait)
 
 Infinity Cache stores execution states, not just data.
 
-=====================================================================
 8. INFINITY CORE / ORQUESTRADOR DE FLUXO
-=====================================================================
+
 
 Infinity Core is responsible for:
 
@@ -219,9 +216,9 @@ Infinity Core is responsible for:
 
 It acts as a dimensional scheduler and flow coordinator.
 
-=====================================================================
+
 9. EXECUTION LIFECYCLE / CICLO DE VIDA DA EXECUÇÃO
-=====================================================================
+
 
 Complete execution flow:
 
@@ -245,9 +242,9 @@ Dimensional Update
         v
 Immediate Execution Return
 
-=====================================================================
+
 10. PARALLELISM AND LINEARITY
-=====================================================================
+
 
 This model enables:
 
@@ -256,9 +253,8 @@ This model enables:
 
 This resolves conflicts without sacrificing predictability or scalability.
 
-=====================================================================
+
 11. ARCHITECTURAL CLASSIFICATION
-=====================================================================
 
 This system is:
 
@@ -268,9 +264,9 @@ This system is:
 - YES a computational paradigm
 - YES a foundation for hardware and software designs
 
-=====================================================================
+
 12. IMPLEMENTATION PHILOSOPHY
-=====================================================================
+
 
 Infinity Architecture can be applied on top of existing ISAs such as
 x86-64 without breaking compatibility.
@@ -282,9 +278,9 @@ Possible implementations include:
 - Compilers
 - Experimental hardware models
 
-=====================================================================
+
 13. RESEARCH SCOPE
-=====================================================================
+===
 
 This project is made public to encourage:
 
@@ -294,9 +290,8 @@ This project is made public to encourage:
 - Independent implementation
 - Academic and industrial exploration
 
-=====================================================================
+
 14. FINAL STATEMENT / DECLARAÇÃO FINAL
-=====================================================================
 
 Infinity Architecture transforms:
 
@@ -306,9 +301,8 @@ Infinity Architecture transforms:
 
 A computação deixa de ser apenas sequencial e passa a ser estrutural.
 
-=====================================================================
 15. LICENSE (MIT)
-=====================================================================
+
 
 MIT License
 
@@ -325,6 +319,5 @@ in all copies or substantial portions of the project.
 
 THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
-=====================================================================
+
 END OF FILE
-=====================================================================
